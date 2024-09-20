@@ -9,5 +9,11 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angular';
+  title = 'Mayank Ghatawal';
+
+  constructor(){
+    setTimeout(()=>{
+      this.title = 'Angular App';
+    }, 2000);
+  }
 }
