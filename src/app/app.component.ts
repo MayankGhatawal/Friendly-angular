@@ -12,8 +12,8 @@ export class AppComponent {
   title = 'Mayank Ghatawal';
 
   constructor(){
-    setTimeout(()=>{
-      this.title = 'Angular App';
-    }, 2000);
+    // setTimeout(()=>{
+    //   this.title = 'Angular App';
+    // }, 2000);
   }
 }
